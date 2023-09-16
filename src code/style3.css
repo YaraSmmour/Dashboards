@@ -1,0 +1,83 @@
+
+.close{
+  background: #999999;
+  border: 2px solid;
+  font: inherit;
+  font-size: 25px;
+  line-height: 1;
+  //margin: 0.5em;
+ // padding: 1em 2em;
+  color: #000000 
+  }
+  .prev{
+  background: #999999;
+  border: 2px solid;
+  font: inherit;
+  font-size: 25px;
+  line-height: 1;
+  //margin: 0.5em;
+ // padding: 1em 2em;
+  color: #000000 
+  }
+  .print{
+  background: #999999;
+  border: 2px solid;
+  font: inherit;
+  font-size: 25px;
+  line-height: 1;
+  //margin: 0.5em;
+ // padding: 1em 2em;
+  color: #000000 
+  }
+  .container img{
+position: fixed;
+  top: 0;
+ // right: 0;
+ // bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+  .close{
+position: absolute;
+  top: 0;
+  right: 0;
+  //bottom: 0;
+  //left: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+ .prev{
+position: absolute;
+  top: 0;
+  right: 100px;
+  //bottom: 0;
+  //left: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+ .print{
+position: absolute;
+  //top: 0;
+  right: 0;
+  bottom: 0;
+  //left: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+body {
+ //color:#fff;
+  background:lightgray;
+  //font: 300 1em 'Fira Sans', sans-serif;
+  // Center everything ever
+  //justify-content: center;
+  //align-content: center;
+  //align-items: center;
+  //text-align: center;
+  //min-height: 100vh;
+  //display: flex;
+}
